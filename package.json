@@ -14,7 +14,7 @@
     "lint": "bun run eslint .",
     "format": "bun run prettier .",
     "prepare": "bun run build",
-    "release": "npm version patch && bun build && bun publish --access public"
+    "release": "npm version patch && bun run build && bun publish --access public"
   },
   "devDependencies": {
     "@types/bun": "latest"
