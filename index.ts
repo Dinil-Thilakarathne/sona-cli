@@ -7,7 +7,7 @@ import { upgrade } from "./utils/upgrade";
 
 const program = new Command();
 
-program.name("sona-cli").description("A simple CLI tool").version("0.0.1");
+program.name("sona-cli").description("A simple CLI tool");
 
 program
   .command("init")
