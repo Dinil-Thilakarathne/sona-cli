@@ -3,7 +3,7 @@ import { execSync } from "child_process";
 import { version } from "../package.json";
 import latestVersion from "latest-version";
 
-const pkgName = "@dinil/sona-cli";
+const pkgName = "@sonacode/sona-cli";
 
 export async function upgrade() {
   const latest = await latestVersion(pkgName);
