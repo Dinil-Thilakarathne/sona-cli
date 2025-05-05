@@ -2,7 +2,7 @@
 
 import { Command } from "commander";
 import createProject from "./utils/create-projects";
-import { clearCache } from "./utils/clear.cache";
+import { clearCache } from "./utils/clear-cache";
 import { upgrade } from "./utils/upgrade";
 
 const program = new Command();
