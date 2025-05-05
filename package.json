@@ -10,10 +10,6 @@
   "scripts": {
     "link-cli": "chmod +x ./dist/index.js && bun link",
     "build": "bun build index.ts --outdir dist --target=bun",
-    "test": "bun test",
-    "lint": "bun run eslint .",
-    "format": "bun run prettier .",
-    "prepare": "bun run build",
     "release": "npm version patch && bun run build && bun publish --access public"
   },
   "devDependencies": {
