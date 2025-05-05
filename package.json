@@ -3,7 +3,7 @@
   "bin": {
     "sona": "dist/index.js"
   },
-  "version": "0.0.3",
+  "version": "0.0.4",
   "module": "index.ts",
   "type": "module",
   "outDir": "dist",
