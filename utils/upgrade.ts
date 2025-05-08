@@ -1,4 +1,3 @@
-#!/usr/bin/env bun
 import { execSync } from "child_process";
 import { version } from "../package.json";
 import latestVersion from "latest-version";
