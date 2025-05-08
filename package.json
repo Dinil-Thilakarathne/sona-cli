@@ -8,7 +8,7 @@
   "type": "module",
   "outDir": "dist",
   "scripts": {
-    "link-cli": "chmod +x ./dist/index.js && bun link",
+    "link-cli": "chmod +x ./dist/index.js && npm link",
     "build": "bun build index.ts --outdir dist --target=bun",
     "prepublishOnly": "bun run build",
     "release": "npm version patch && bun run build && bun publish --access public"
