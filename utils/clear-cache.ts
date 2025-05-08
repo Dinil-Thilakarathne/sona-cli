@@ -1,9 +1,8 @@
-// utils/clear-cache.ts
 import fs from 'fs-extra';
 import path from 'path';
 import chalk from 'chalk';
 
-const cacheDirs = ['.next', 'node_modules', '.turbo', 'dist', 'build'];
+const cacheDirs = ['.next', 'node_modules', '.turbo', 'dist', 'build', '.astro', 'test'];
 
 export async function clearCache() {
   console.log(chalk.blue('\n🧹 Clearing cache folders...\n'));
