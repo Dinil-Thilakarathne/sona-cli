@@ -9,12 +9,6 @@ const program = new Command();
 
 program.name("sona-cli").description("A simple CLI tool");
 
-program
-  .command("init")
-  .description("Initialize a new project")
-  .action(() => {
-    console.log("Project initialized!");
-  });
 
 program
   .command("create")
