@@ -6,9 +6,12 @@ import { clearCache } from "./utils/clear-cache";
 import { upgrade } from "./utils/upgrade";
 
 const program = new Command();
+const pkg = require("./package.json");
 
-program.name("sona-cli").description("A simple CLI tool");
-
+program
+  .name("sona-cli")
+  .description("A simple CLI tool")
+  .version(pkg.version, "-v, --version", "output the current version")
 
 program
   .command("create")
